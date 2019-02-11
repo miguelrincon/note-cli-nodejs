@@ -2,6 +2,12 @@
 
 The notes app saves notes using CLI commands and puts them in disk.
 
+Use `--help` for comand list and usage.
+
+``` bash
+$ node app.js --help
+$ node app.js <command> --help
+```
 
 
 ## Some interesting points

@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const fileName = 'notes-data.json'
+const fileName = './data/notes-data.json'
 
 var fetchNotes = () => {
   try {
