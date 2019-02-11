@@ -1,8 +1,23 @@
-# A simple notes app
+# A NodesJS CLI app
 
 The notes app saves notes using CLI commands and puts them in disk.
 
-## Some notes
+
+
+## Some interesting notes taken
+
+Create a command using `yargs` and returning the arguments on `argv`:
+
+``` js
+const argv = yargs
+  .command('add', 'Add a new note.', {
+    title: {
+      describe: 'Title of note',
+      demand: true,
+      alias: 't'
+    }
+  })
+```
 
 Use the debugger over the CLI
 ``` bash
@@ -29,3 +44,4 @@ Debugger commands:
 > n # next line
 > c # continue 
 ```
+
