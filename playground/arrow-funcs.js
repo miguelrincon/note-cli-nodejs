@@ -1,7 +1,7 @@
 // Minimal syntax to define arrow functions
 var square = x => x * x;
 
-// Use es6 syntax on objects
+// Use es6 syntax on objects to access `arguments` and `this`.
 var user = {
   name: 'Miguel',
   sayHiWrong: () => {

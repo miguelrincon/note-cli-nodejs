@@ -4,7 +4,7 @@ The notes app saves notes using CLI commands and puts them in disk.
 
 
 
-## Some interesting notes taken
+## Some interesting points
 
 Create a command using `yargs` and returning the arguments on `argv`:
 
